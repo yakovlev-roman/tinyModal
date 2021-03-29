@@ -139,3 +139,6 @@ var tinyModal = (function(){
 	};
 
 })();
+
+// for webpack 4
+module.exports = Cleave;
