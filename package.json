@@ -1,15 +1,30 @@
 {
-  "private": true,
+  "author": "",
+  "bugs": {
+	"url": "https://github.com/yakovlev-roman/tinyModal/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "tinyModal.js ===",
   "devDependencies": {
-    "grunt": "~0.4.5",
-    "grunt-cli": "~0.1.13",
-    "grunt-contrib-concat": "^0.5.0",
-    "grunt-contrib-jshint": "^0.11.0",
-    "grunt-contrib-uglify": "^0.7.0",
-    "grunt-contrib-watch": "^0.6.1",
-    "grunt-sass": "^1.2.0"
+	"grunt": "~0.4.5",
+	"grunt-cli": "~0.1.13",
+	"grunt-contrib-concat": "^0.5.0",
+	"grunt-contrib-jshint": "^0.11.0",
+	"grunt-contrib-uglify": "^0.7.0",
+	"grunt-contrib-watch": "^0.6.1",
+	"grunt-sass": "^1.2.0"
+  },
+  "homepage": "https://github.com/yakovlev-roman/tinyModal#readme",
+  "license": "MIT",
+  "main": "Gruntfile.js",
+  "name": "tinymodal-npm",
+  "repository": {
+	"type": "git",
+	"url": "git+https://github.com/yakovlev-roman/tinyModal.git"
   },
   "scripts": {
-    "test": "grunt testjs --verbose"
-  }
+	"test": "grunt testjs --verbose"
+  },
+  "version": "1.0.2"
 }
